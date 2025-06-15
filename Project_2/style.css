@@ -1,0 +1,158 @@
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* background-color: blueviolet; */
+    background-color: #FCFCFC;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* background-color: skyblue; */
+    background-color: #FCFCFC;
+    padding: 0px 134px ;
+}
+.logo{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: black;
+}
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+.hero-section{
+    height: 684px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blanchedalmond; */
+    background-color: whitesmoke;
+}
+.top-hading{
+    height: 154px;
+    width: 1020px;
+    padding: 0px 210px;
+    font-size: 54px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    line-height: 76px;
+    letter-spacing: -1.2px;
+}
+/* .Building-Construction-picture{
+    height: 684px;
+    width: 1440px;
+}
+.Building-Construction-shadow{
+    height: 684px;
+    width: 1440px;
+} */
+.button-wrappar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.btn{
+    padding: 14px 24px;
+    border-radius: 4px;
+    border: none;
+}
+.btn-1st{
+    background-color: white;
+}
+.btn-2nd{
+    background-color: black;
+    color: white;
+}
+
+.hero-section-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 110px 100px;
+    gap: 98px;
+}
+
+/* .hero-wrapper {
+    width: 308px;
+    height: 301px;
+    padding: 134px 0px ;
+} */
+.heading-text {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 32px;
+    line-height: 76px;
+    letter-spacing: -1.2px;
+}
+.heading-paragraph {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #525252;
+   
+    line-height: 28px;
+}
+
+.heading-button {
+    font-size: 16px;
+    padding: 16px 28px;
+    background-color: #16253F;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    font-weight: 600;
+}
+/* .right-to-left {
+flex-direction: row-reverse;
+} */
+.about-us-section{
+    padding: 0px 134px ;
+}
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+.title-p{
+    text-align: center;
+    font-weight: 70;
+    font-size: 18px;
+    margin-bottom: 72px;
+    padding: 0px 400px;
+}
+
+/*###################### This is footer part ############################*/
+footer {
+    justify-content: space-between;
+    background-color: #16253F;
+    color: white;
+    padding: 0px 134px ;
+}
+.all-column {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 70px 0px;
+}
+.logo-2{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+.first-column > p {
+    width: 415px;
+}
+.other-column > h2 {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.other-column > ul{
+    list-style: none;
+    gap: 10px;
+    flex-direction: column;
+    display: flex;
+}
